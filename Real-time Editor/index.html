@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Real Time Editor</title>
+        <script src="js/main.js"></script>
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="intro">
+            <h1>Real Time Editor</h1>
+        </div>
+        <div class="quick-buttons">
+            <button id="start-html" onclick="htmlStructure()">Start HTML</button>
+        </div>
+        <div class="main">
+            <textarea id="editor-textarea" placeholder="Code area" onkeyup="refresh()"></textarea>
+            <iframe id="viewer"></iframe>
+        </div>
+    </body>
+</html>

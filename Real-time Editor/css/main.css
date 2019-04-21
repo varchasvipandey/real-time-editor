@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+}
+
+.intro h1{
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+}
+
+#editor-textarea {
+    height: 95%;
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    background: #252525b6;
+    color: rgb(219, 171, 13);
+    font-size: 1rem;
+    transition: 0.5s;
+}
+#editor-textarea:hover{
+    background: #252525c0;
+}
+
+#viewer {
+    background: #fff;
+    border: none;
+    width: 100%;
+    height: 95%;
+    margin: 10px;
+    border: 1px solid #3498db;
+    transition: 0.5s;
+}
+#viewer:hover{
+    background: rgb(205, 241, 241);
+}
+
+.quick-buttons{
+    padding: 0.5rem;
+    text-align: center;
+}
+.quick-buttons #start-html{
+    background: yellow;
+    border: none;
+    border-radius: 1rem;
+    width: 10%;
+    height: 5%;;
+    transition: 0.5s;
+}
+.quick-buttons #start-html:hover{
+    background: rgb(185, 185, 2);
+}
